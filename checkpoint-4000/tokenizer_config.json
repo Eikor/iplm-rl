@@ -1,0 +1,41 @@
+{
+  "added_tokens_decoder": {
+    "0": {
+      "content": "<|pad|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "1": {
+      "content": "<|bos|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "<|eos|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "auto_map": {
+    "AutoTokenizer": [
+      "tokenization_iPLM.iPLMTokenizer",
+      null
+    ]
+  },
+  "clean_up_tokenization_spaces": false,
+  "extra_special_tokens": {},
+  "model_max_length": 1000000000000000019884624838656,
+  "n_queries": 256,
+  "pad_token": "<|pad|>",
+  "tokenizer_class": "iPLMTokenizer",
+  "use_structure": true
+}
