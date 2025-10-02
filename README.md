@@ -102,11 +102,11 @@ The pre-generated dataset are organized as follows:
     
 ### Multi-round DPO
 Run experiments by
-    ```bash
-    bash multi-round.sh \
-        [ROUND_NUM] \ # number of rounds
-        [ALPHA] \ # weights to balance positive and negative samples
-        [STEP] \ # train steps of each round
-        [subset] \ # number of samples generated in each round
-        [gt_pdb_path] \ # ground-truth pdb file path
-    ```
+```bash
+bash multi-round.sh \
+    [ROUND_NUM] \ # number of rounds
+    [ALPHA] \ # weights to balance positive and negative samples
+    [STEP] \ # train steps of each round
+    [subset] \ # number of samples generated in each round
+    [gt_pdb_path] \ # ground-truth pdb file path
+```
